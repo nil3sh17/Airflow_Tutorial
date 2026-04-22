@@ -1,0 +1,10 @@
+{"timestamp":"2026-03-06T00:00:19.229529Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_orchestrate_2.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-06T00:00:51.127059Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_orchestrate_2.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-06T00:01:21.927064Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_orchestrate_2.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-06T00:01:52.409235Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_orchestrate_2.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-06T00:02:25.109581Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_orchestrate_2.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-06T00:02:56.980847Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_orchestrate_2.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-06T00:03:28.818495Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_orchestrate_2.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-06T00:04:00.621849Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_orchestrate_2.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-06T00:04:31.545796Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_orchestrate_2.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-06T00:05:03.337998Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_orchestrate_2.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
