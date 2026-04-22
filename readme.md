@@ -1,5 +1,7 @@
 # Airflow
 
+![Notes](./notes.png)
+
 ## 1) What is Airflow?
 - **Apache Airflow** is an **open-source workflow orchestration framework**.
 - It is used to **schedule, manage, and monitor workflows/pipelines**.
@@ -87,8 +89,8 @@ Cron is a basic Unix scheduler.
 
 Example:
 
-```bash
-bash0 2 * * * /home/user/run_etl.sh
+```
+0 2 * * * /home/user/run_etl.sh
 ```
 ### Limitations of Cron
 #### No dependency management
@@ -133,7 +135,7 @@ Daily pipeline:
 - Must manually chain them
 - If step 2 fails, step 3 may still run unless custom checks are added
 #### In Airflow
-```python
+```
 extract >> transform >> load >> notify
 ```
 Airflow ensures:
@@ -190,7 +192,7 @@ Common production DB:
 Parsing should be lightweight.
 
 #### Bad practice
-```python
+```
 data = huge_api_call()
 ```
 This runs during parse time repeatedly.
@@ -351,7 +353,7 @@ Python Operator
 -  means downstream dependency in reverse notation<<
 Example:
 
-```python
+```
 task1 >> task2 >> task3
 ```
 ---
@@ -359,7 +361,7 @@ task1 >> task2 >> task3
 ## Parallel Tasks
 Example:
 
-```python
+```
 task1 >> [task2, task3] >> task4
 ```
 Meaning:
@@ -449,9 +451,6 @@ end_date
 ## ```
 schedule
 ```
- / ```
-schedule_interval
-```
 
 - defines how often DAG runs happen
 ## ```
@@ -470,7 +469,7 @@ Examples:
 ### 2. Cron Syntax
 Format:
 
-```text
+```
 * * * * *
 | | | | |
 | | | | Day of week
@@ -573,7 +572,7 @@ Only process new or changed data instead of full history every run.
 - data interval-based loads
 Example:
 
-```sql
+```
 WHERE order_date = '{{ ds }}'
 ```
 Or use:
